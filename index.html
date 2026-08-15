@@ -191,14 +191,17 @@
         <h2>Contact Me</h2>
 
         <form
-        action="https://formspree.io/f/xwleqgyo"method="POST">
+        action="https://formspree.io/f/xwleqgyo"
+        method="POST">
 
             <label>Name</label>
             <br>
 
             <input
                 type="text"
+                name="name"
                 placeholder="Enter your name"
+                required
             >
 
             <br><br>
@@ -208,7 +211,9 @@
 
             <input
                 type="email"
+                name="email"
                 placeholder="Enter your email"
+                required
             >
 
             <br><br>
@@ -217,8 +222,10 @@
             <br>
 
             <textarea
+                name="message"
                 rows="5"
                 placeholder="Write your message"
+                required
             ></textarea>
 
             <br><br>
